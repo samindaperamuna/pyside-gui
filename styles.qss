@@ -1,0 +1,37 @@
+#layout {
+    margin: 50px;
+    padding: 50px;
+    background-color: "#e7e6e6";
+}
+
+QLabel, QLineEdit {
+    height: 30px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QLabel {
+    background-color: "#bfbfbf";
+}
+
+QLineEdit {
+    border: 2px solid "#efe99c";
+}
+
+QPushButton {
+    font-size: 14px;
+    font-weight: bold;
+
+    border: 2px solid "#efe99c";
+
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #25ce72, stop: .51 #07b053, stop: 1 #04a24c);
+}
+
+QPushButton::pressed {
+    background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #1eb362, stop: .51 #3bd681, stop: 1 #6bcf98);
+}
