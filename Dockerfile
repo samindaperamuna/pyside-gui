@@ -40,6 +40,4 @@ ENV QT_TESTING true
 # Xvfb
 ENV DISPLAY :99
 
-RUN xhost +
-
 CMD [ "python3", "./app.py" ]
